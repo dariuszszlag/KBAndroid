@@ -3,7 +3,7 @@ name: Create KBEmbed
 on:
   push:
     tags:
-      - "v*.*.*-embed"
+      - "*.*.*-embed"
 
   workflow_dispatch:
 

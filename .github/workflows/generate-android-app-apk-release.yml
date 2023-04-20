@@ -3,7 +3,7 @@ name: Create Android app
 on:
   push:
     tags:
-      - "v*.*.*-app"
+      - "*.*.*-app"
 
   workflow_dispatch:
 
